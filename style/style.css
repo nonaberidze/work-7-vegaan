@@ -1,0 +1,212 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+body{
+    background-image: url(../img/vegan.png);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    
+}
+header{
+    padding: 40px;
+   
+}
+
+header nav{
+    margin-left: 700px;
+    
+}
+header li{
+    margin: 10px;
+    float: left;
+    /* text-align: center; */
+    margin-right: 86px;
+    margin-top: 20px;
+}
+header a{
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+  
+}
+
+
+
+header .prod{   
+    background-color: #79b331;
+    width: 228px;
+    height: 70px;
+    font-size: 18px;
+ 
+}
+header .magazia{
+    background-color: #c4c4c4;
+    width: 125px;
+    height: 70px;
+    font-size: 18px;
+
+}
+header .shop{
+    background-color: #c4c4c4;
+    width: 70px;
+    height: 70px;
+    font-size: 18px;
+}
+header .prod, .magazia, .shop{
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+}
+.mart{
+    width: 422px;
+    height: 192px;
+    
+    margin-top: 140px;
+    margin-left: 890px;
+    transition: 2s;
+}
+.wre{
+    width: 32px;
+    height: 32px;
+    background-color: #79b331;
+    /* margin-top: 214px;
+    margin-left: 890px; */
+    border-radius: 50%;
+    animation: wre 2s infinite;
+    position: relative;
+
+
+}
+@keyframes wre {
+    0%{top: 0; left: 0;}
+    25%{top: 0;left:390px}
+    50%{top: 160px; left: 390px; }
+    75%{top: 160px; left: 0;}
+    100%{top: 0; left: 0;}
+
+
+    
+}
+.aqcia{
+    margin-top: 16px;
+    margin-left: 56px;
+    font-size: 18px;
+}
+.dro{
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 36px;
+}
+.xe{
+    width: 1062px;
+    height: 500px;
+    
+    margin-left: 380px;
+    margin-top: 110px;
+    
+  
+    position: relative;
+  
+}
+.gero{
+    margin: 0 auto;
+    width: 1px;
+    height: 500px;    
+    background-color: #c4c4c4;
+    
+}
+
+.pirveli{
+    width: 50%;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    
+   
+}
+.meore{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+   
+    position: absolute;
+    top: 114px;
+    left: 50%;
+}
+.mesame{
+    width: 50%;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 0;
+}
+.meotxe{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+   
+    position: absolute;
+    top: 340px;
+    left: 50%;
+}
+.mwvanetext{
+    color: #79b331;
+    
+}
+.fot1{
+    width: 90px;
+    height: 70px;
+    background-color: #79b331;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    
+}
+.fot2{
+    width: 70px;
+    height: 70px;
+    background-color: #c4c4c4;
+    border-top-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+
+}
+.fot3{
+    width: 90px;
+    height: 70px;
+    background-color: #c4c4c4;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px; 
+}
+.fot4{
+    width: 80px;
+    height: 70px;
+    background-color: #c4c4c4;
+    border-top-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+
+}
+
+
+
+
+
+
